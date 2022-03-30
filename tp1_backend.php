@@ -27,7 +27,7 @@ echo "Divición"."\n". $numero1 / $numero1 . "<br>";
     <h1>Ejercicio 4</h1>
     <?php
     $cel=20;
-    $far= $cel*1.8000+32;
+    $far= ($cel*1.8000)+32;
     echo "La transformación de grados Celsius a Fahrenheit, para el valor $cel °C es $far" ;
     ?>
     <hr>
@@ -42,7 +42,7 @@ echo "Divición"."\n". $numero1 / $numero1 . "<br>";
     echo "Circulo" . "<br>";
     $radio=30;
     $pi=3.14;
-    echo "Perímetro = " . 2*$pi*$radio . "<br>"."Area = " . 2*$pi*$radio*$radio;
+    echo "Perímetro = " . 2*$pi*$radio . "<br>"."Area = " . 2*$pi*($radio*$radio);
     ?>
   </body>
 </html>
